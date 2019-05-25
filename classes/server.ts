@@ -42,9 +42,7 @@ export default class Server {
             // desconectar
             socket.desconectar(cliente);
 
-
         });
-
     }
 
     start(callback: Function) {
